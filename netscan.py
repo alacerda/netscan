@@ -3,6 +3,9 @@
 import sys
 import socket
 
+if len(sys.argv) != 3:
+	quit()
+
 alvo = sys.argv[1]
 portas = sys.argv[2]
 
